@@ -1,5 +1,7 @@
 import React from 'react';
-import { H2, SubTitle, Text } from '../../styles';
+import {
+  H3, H2, SubTitle, Text,
+} from '../../styles';
 
 export default function Festa() {
   return (
@@ -22,8 +24,8 @@ export default function Festa() {
         ❤
       </SubTitle>
 
-      <SubTitle>Dicas de como aproveitar o seu presente</SubTitle>
-      <H2>Bolo e brigadeiros</H2>
+      <H2>Dicas de como aproveitar o seu presente:</H2>
+      <H3>Bolo e brigadeiros</H3>
       <Text>Conserve o bolo e os brigadeiros em geladeira e consuma em até 2 dias!</Text>
     </div>
   );
