@@ -1,12 +1,13 @@
 import React from 'react';
 import {
-  H1, H2, H3, Text,
+  H1, H2, H3, SubTitle, Text,
 } from '../../styles';
-import { LeavesImage, PageWrapper } from './styles';
+import LeavesImage from './styles';
 
 export default function Cuidados() {
   return (
-    <PageWrapper>
+    <>
+      <SubTitle>Dicas de como aproveitar o seu presente</SubTitle>
       <Text>
         Os sabonetes e a vela que você recebeu, são produtos 100% naturais que beneficiem a nossa
         saúde e causam menor impacto no meio ambiente. Se você está recebendo esses produtos, é
@@ -55,6 +56,6 @@ export default function Cuidados() {
         água corrente. Não ingerir. Não contém parafina.
       </Text>
       <LeavesImage />
-    </PageWrapper>
+    </>
   );
 }
