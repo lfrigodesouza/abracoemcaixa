@@ -3,7 +3,8 @@ import React, { useEffect, useState } from 'react';
 import { Redirect, useParams } from 'react-router-dom';
 import PageDefault from '../../components/PageDefault';
 import Cuidados from './components/Cuidados';
-import { BoxName, SubTitle, Title } from './styles';
+import Festa from './components/Festa';
+import { BoxName, DetailWrapper, Title } from './styles';
 
 export default function Detalhes() {
   const { box } = useParams();
@@ -18,6 +19,9 @@ export default function Detalhes() {
     switch (box) {
       case 'cuidados':
         setBox('Abraço de Cuidados', Cuidados);
+        break;
+      case 'festa':
+        setBox('Abraço de Festa', Festa);
         break;
       default:
         setBoxName(null);
@@ -34,10 +38,9 @@ export default function Detalhes() {
             <BoxName>{boxName}</BoxName>
             !
           </Title>
-          <SubTitle>Dicas de como aproveitar o seu presente</SubTitle>
           <Divider variant="middle" />
         </header>
-        {boxDetails}
+        <DetailWrapper>{boxDetails}</DetailWrapper>
       </PageDefault>
     );
   }

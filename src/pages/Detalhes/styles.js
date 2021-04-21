@@ -24,7 +24,7 @@ export const Title = styled.div`
   font-size: 170%;
   font-weight: 600;
   text-align: center;
-  padding: 25px 10px 10px 10px;
+  padding: 25px 10px 25px 10px;
   font-family: 'Courier Prime', monospace;
 
   @media (max-width: 400px) {
@@ -35,7 +35,7 @@ export const Title = styled.div`
 export const SubTitle = styled.div`
   text-align: center;
   font-size: 120%;
-  padding: 5px 10px 20px 10px;
+  padding: 20px 10px 5px 10px;
   font-family: 'Abhaya Libre', serif;
 `;
 
@@ -43,4 +43,11 @@ export const BoxName = styled.span`
   background-color: #000000;
   color: #ffffff;
   display: inline-block;
+`;
+
+export const DetailWrapper = styled.div`
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 95%, rgba(255, 208, 189, 1) 100%);
+  padding: 0 20px 50px 20px;
+  font-family: 'Abhaya Libre', serif;
 `;
