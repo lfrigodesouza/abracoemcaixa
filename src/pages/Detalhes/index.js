@@ -4,7 +4,9 @@ import { Redirect, useParams } from 'react-router-dom';
 import PageDefault from '../../components/PageDefault';
 import Cuidados from './components/Cuidados';
 import Festa from './components/Festa';
-import { BoxName, DetailWrapper, Title } from './styles';
+import {
+  BoxName, DetailWrapper, LeavesImage, Title,
+} from './styles';
 
 export default function Detalhes() {
   const { box } = useParams();
@@ -41,6 +43,7 @@ export default function Detalhes() {
           <Divider variant="middle" />
         </header>
         <DetailWrapper>{boxDetails}</DetailWrapper>
+        <LeavesImage />
       </PageDefault>
     );
   }

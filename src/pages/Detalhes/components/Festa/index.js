@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  H3, H2, SubTitle, Text,
+  H1, H2, SubTitle, Text,
 } from '../../styles';
 
 export default function Festa() {
@@ -24,9 +24,35 @@ export default function Festa() {
         ❤
       </SubTitle>
 
-      <H2>Dicas de como aproveitar o seu presente:</H2>
-      <H3>Bolo e brigadeiros</H3>
+      <SubTitle style={{ textAlign: 'left' }}>Dicas de como aproveitar o seu presente:</SubTitle>
+      <H1>Bolo e brigadeiros</H1>
       <Text>Conserve o bolo e os brigadeiros em geladeira e consuma em até 2 dias!</Text>
+
+      <H1>Orquídea</H1>
+      <H2>Iluminação</H2>
+      <Text>
+        As orquídeas gostam de locais bem iluminados e bem ventilados. De preferência onde a planta
+        possa receber o Sol da manhã entre 7h e 9 horas. Quando a planta está sem flores, é
+        preferível deixa-la na área ou jardim em um lugar bem protegido do Sol forte do meio-dia. O
+        local ideal é sob a copa de uma árvore.
+      </Text>
+      <H2>Rega</H2>
+      <Text>
+        A rega deve ser feita a cada 15 dias quando o vaso estiver bem leve. Coloca-la na chuva é um
+        processo de rega natural e adequado para as orquídeas. Mas você pode utilizar água mineral
+        ou fervida e resfriada, evite sempre que possível usar água com cloro. Quando regar deixe
+        que a água saia pelos orifícios do vaso e depois retire o excesso de água do pratinho. Isso
+        é importante para que as raízes não fiquem danificadas ou até mesmo venham a apodrecer por
+        causa do excesso de umidade. Além de favorecer o aparecimento de fungos e bactérias, pode se
+        tornar um criatório de larvas para o mosquito da Dengue.
+      </Text>
+      <H2>Poda</H2>
+      <Text>
+        A poda deve ser feita quando as flores murcharem. Corte a haste deixando uns 20 cm na
+        planta. A época de florescimento é após o inverno, quando é formado o botão. É por isso que
+        o pico do florescimento ocorre no início da primavera, quando se consegue encontrá-las em
+        grande número no comércio.
+      </Text>
     </div>
   );
 }
