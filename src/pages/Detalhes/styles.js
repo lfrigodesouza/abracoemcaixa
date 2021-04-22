@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Leaves from '../../assets/img/leaves.svg';
 
 export const Text = styled.p`
   padding: 0px 20px;
@@ -51,3 +52,16 @@ export const DetailWrapper = styled.div`
   padding: 0 20px 50px 20px;
   font-family: 'Abhaya Libre', serif;
 `;
+
+export const LeavesImage = styled.img`
+  transform: rotate(315deg);
+  position: fixed;
+  bottom: -20px;
+  right: -50px;
+  opacity: 0.2;
+  max-width: 300px;
+`;
+LeavesImage.defaultProps = {
+  src: Leaves,
+  alt: 'Desenho de folhas',
+};

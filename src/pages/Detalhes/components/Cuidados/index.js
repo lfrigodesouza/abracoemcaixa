@@ -2,7 +2,6 @@ import React from 'react';
 import {
   H1, H2, H3, SubTitle, Text,
 } from '../../styles';
-import LeavesImage from './styles';
 
 export default function Cuidados() {
   return (
@@ -55,7 +54,6 @@ export default function Cuidados() {
         irritação. Não expor a calor intenso. Evite contato com os olhos e se ocorrer enxaguar em
         água corrente. Não ingerir. Não contém parafina.
       </Text>
-      <LeavesImage />
     </>
   );
 }
