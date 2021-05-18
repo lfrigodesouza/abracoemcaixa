@@ -9,7 +9,7 @@ export default function DeliveryMap() {
       <Title>Regiões de entrega</Title>
       <ColorBox color="#A8B78A">Entrega Grátis</ColorBox>
       <ColorBox color="#FFA473">R$20 por entrega</ColorBox>
-      <ColorBox color="#DEDEDE">Uber Frete (valor a calcular)</ColorBox>
+      Demais localidades: Uber Frete (valor a calcular)
       <MapFrame
         title="Região de Entrega"
         frameBorder="0"
