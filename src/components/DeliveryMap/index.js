@@ -4,10 +4,6 @@ import {
 } from './styles';
 
 export default function DeliveryMap() {
-  function mapClickHandle() {
-    window.alert('asd');
-  }
-
   return (
     <MapWrapper>
       <Title>Regiões de entrega</Title>
@@ -15,7 +11,6 @@ export default function DeliveryMap() {
       <ColorBox color="#FFA473">R$20 por entrega</ColorBox>
       <ColorBox color="#DEDEDE">Uber Frete (valor a calcular)</ColorBox>
       <MapFrame
-        onPointerDown={mapClickHandle}
         title="Região de Entrega"
         frameBorder="0"
         style={{ border: 0 }}
