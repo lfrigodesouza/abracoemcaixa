@@ -1,7 +1,5 @@
 import React from 'react';
-import {
-  H1, H2, SubTitle, Text,
-} from '../../styles';
+import { H1, SubTitle, Text } from '../../styles';
 
 export default function Festa() {
   return (
@@ -28,7 +26,7 @@ export default function Festa() {
       <H1>Bolo e brigadeiros</H1>
       <Text>Conserve o bolo e os brigadeiros em geladeira e consuma em até 2 dias!</Text>
 
-      <H1>Orquídea</H1>
+      {/* <H1>Orquídea</H1>
       <H2>Iluminação</H2>
       <Text>
         As orquídeas gostam de locais bem iluminados e bem ventilados. De preferência onde a planta
@@ -52,7 +50,7 @@ export default function Festa() {
         planta. A época de florescimento é após o inverno, quando é formado o botão. É por isso que
         o pico do florescimento ocorre no início da primavera, quando se consegue encontrá-las em
         grande número no comércio.
-      </Text>
+      </Text> */}
     </div>
   );
 }
